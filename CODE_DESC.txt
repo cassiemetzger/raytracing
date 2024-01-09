@@ -1,0 +1,23 @@
+Description of files: 
+
+BH_0_spin.png = generated image of a black hole where the observer is at an angle of 85 deg with the black hole, the spin parameter is 0.99 and the outer radius is 20.0. All other variables remain unchanged in the code 
+BH_99_40deg.png = generated image of a black hole where the observer is at an angle of 40 deg with the BH, the spin parameter is 0.99. The outer radius is 20.0. 
+All other generated images of the BH appear in the file project_report.png to not clutter the git report
+EoM.h = Metric equations are defined here 
+Error of orbits.png = error of all orbits from Test Case 2 displayed on graph 
+implement.cpp = implementation of test cases 1 and 2 
+output_test_case_1.csv = raw output of test case 1 
+output_test_case_1xy.csv= test case 1 output with converted coordinates 
+output_test_case_2{A-D}.csv = test case output, can be graphed with k3d in python 
+output_test_case2{A-D}_error.csv = error of the unstable orbit with corresponding title (e.g error A corresponds to error of orbit A)
+project_report.pdf = findings summarized with clearer Description
+raytracing_test.csv = output of raytacing.cpp
+raytracing.cpp = code for raytracing an image of a black hole. produces 2D array of pixel intensities 
+raytracing.ipynb = code for taking raytacing_test.csv and creating an image 
+rk4_adaptive.h = intergration method used 
+test_1.ipynb = code for producing graphs for test 1 
+test_2.ipynb = code for producing graphs for test 2 
+test_case_1.png = test case 1, photon does 1 loop
+test_case _2.png = test case 2, photon does 2 loops 
+test_case_2{A-D}_error.png = error graph for photon orbit 
+test_case_2{A-D}.png = images of k3d generated graphs of unstable photon orbits from test case 2 
